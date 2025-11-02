@@ -1,16 +1,31 @@
 # aivo
 
-A new Flutter project.
+# Flutter AI Chat App – Setup Guide
 
-## Getting Started
+## 📦 Installation & Run Steps
 
-This project is a starting point for a Flutter application.
+### ✅ 1. Create `.env` file in root
 
-A few resources to get you started if this is your first Flutter project:
+```
+GEMINI_API_KEY=your_key_here
+OPENAI_API_KEY=your_key_here
+CLAUDE_API_KEY=your_key_here
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### ✅ 2. Generate Hive Adapters
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter pub run build_runner build --delete-conflicting-outputs
+```
+
+### ✅ 3. Install Dependencies
+
+```
+flutter pub get
+```
+
+### ✅ 4. Run App
+
+```
+flutter run
+```
