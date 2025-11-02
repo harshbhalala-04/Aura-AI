@@ -12,16 +12,16 @@ OPENAI_API_KEY=your_key_here
 CLAUDE_API_KEY=your_key_here
 ```
 
-### ✅ 2. Generate Hive Adapters
-
-```
-flutter pub run build_runner build --delete-conflicting-outputs
-```
-
-### ✅ 3. Install Dependencies
+### ✅ 2. Install Dependencies
 
 ```
 flutter pub get
+```
+
+### ✅ 3. Generate Hive Adapters
+
+```
+flutter pub run build_runner build --delete-conflicting-outputs
 ```
 
 ### ✅ 4. Run App
